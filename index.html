@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="./main.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="header"><i class="fa-solid fa-arrow-left backbtn"></i>  Weather App</div>
+            <section class="input-part ">
+                <div class="info-text">Please Enter a valid location.</div>
+                <input type="text" name="" id="input" placeholder="Enter city name">
+                <span>OR</span>
+                <button id="locationbtn">Get Location</button>
+
+            </section>
+            <section class="weather-part ">
+                <div class="icon"><img class="wicon"  alt=""></div>
+
+                <div class="wdetail">23<span class="deg"></span> C</div>
+                <div class="wshort">Clear</div>
+                <div class="city"><i class="fa-solid fa-location-dot"></i><span class="state">Khulna</span>,<span class="country">BD</span></div>
+                <div class="wfooter">
+                        <span class="temp">
+                            <i class="fa-solid fa-temperature-high"></i><span class="tempdetail">32</span>
+                            <span> Temp</span>
+                        </span>
+
+                    
+                        <span class="humid">
+                            <i class="fa-solid fa-fire"></i><span class="humiddetail">32<span>%</span></span>
+                            <span> Humidity</span>
+                        </span>
+
+                </div>
+
+            </section>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
